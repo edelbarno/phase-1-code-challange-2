@@ -1,14 +1,14 @@
 function swapCase(string){
     let swappedString = '';
     for(let character of string){
-    if(character === character.UpperCase() ){
+    if(character === character.toUpperCase() ){
       //check if char is uppercase
-      character=toLowerCase
+      swappedString += character.toLowerCase();
       //convert uppercase to lowercase
       
         
     }else{
-       character.toUpperCase();
+       swappedString += character.toUpperCase();
        
         
     
@@ -19,4 +19,4 @@ function swapCase(string){
 
 let String =swapCase('The Quick Brown Fox');
 
-console.log(String)
+console.log(String);
